@@ -5,7 +5,7 @@ html,body {
 body {
   text-align: center;
   color: #fff;
-  font-family: ‘Times New Roman’,Times,serif;
+  font-family: ï¿½Times New Romanï¿½,Times,serif;
 }
 
 #slider {
@@ -332,4 +332,26 @@ div[id$='circle'] {
   animation-delay: 0;
   -webkit-animation-delay: 0;
 /* Safari ? Chrome */
+}
+
+#banner {
+  width: 300px !important;
+  background-color: orangered;
+  color: white;
+  position: fixed!important;
+  top: 60px;
+  left: -78px;
+  z-index: 9999;
+  transform: rotateZ(-45deg);
+  font-family: "Gill Sans", sans-serif !important;
+}
+
+#banner > h5 > a{
+  text-decoration: none!important;
+  color: white!important;
+}
+
+#banner > a:focus,a:hover{
+  text-decoration: none!important;
+  color: white;
 }
